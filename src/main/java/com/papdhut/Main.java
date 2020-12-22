@@ -18,7 +18,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        URL url = new File("D:\\aps\\IdeaProjects\\JAVA_fx\\Pic2Txt\\src\\main\\java\\com\\papdhut\\PrimeWin.fxml").toURI().toURL();
+        URL url = new File("PrimeWin.fxml").toURI().toURL();   // insert the absoulte path of PrimeWin.fxml inside the double quotes 
         Parent root = FXMLLoader.load(url);
         primaryStage.setTitle("Pic2Txt");
         primaryStage.setScene(new Scene(root));
